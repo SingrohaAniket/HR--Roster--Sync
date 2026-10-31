@@ -1,0 +1,2 @@
+ALTER TABLE reconciliation_run
+    ADD COLUMN last_progress_at DATETIME(3) NOT NULL DEFAULT CURRENT_TIMESTAMP(3);
